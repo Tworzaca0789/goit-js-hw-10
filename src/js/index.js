@@ -55,7 +55,7 @@ const onSelectBreed = e => {
         <h1>${data[0].breeds[0].name}</h1>
         <p>${data[0].breeds[0].description}</p>
         <p>${data[0].breeds[0].temperament}</p>
-        </div>s
+        </div>
         </div>`;
       Loading.remove();
       selectors.catInfo.classList.remove('is-hidden');
